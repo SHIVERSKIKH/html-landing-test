@@ -1,0 +1,21 @@
+@import "../css/hover.css";
+@import "../css/normalize.css";
+@import "../css/nulling-styles.css";
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #232323;
+}
+
+.center {
+  max-width: 1106px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 50px 0 50px 0;
+}
