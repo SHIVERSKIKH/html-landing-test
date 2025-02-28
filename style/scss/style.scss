@@ -3,6 +3,7 @@
 @import "../css/nulling-style.css";
 @import "_variables.scss";
 
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -93,6 +94,7 @@ body {
     line-height: 140%;
     color: #fff;
     border-radius: 25px;
+    transition: transform 0.3s ease
   }
   .btn-reg-elt {
     width: 60px;
@@ -203,10 +205,8 @@ body {
         color: #343a40;
         margin-bottom: 17px;
         align-self: flex-start;
-        padding-left: 39px;
-    }
-    &-item:first-child &__txt {
-        margin-bottom: 39px;
+        padding-left: 17px;
+        height: 66px;
     }
     &__img {
         width: 147px;
@@ -252,4 +252,4 @@ body {
     text-align: center;
     color: #343a40;
   }
-  
+  @import "_media.scss";

@@ -104,6 +104,7 @@ body {
   line-height: 140%;
   color: #fff;
   border-radius: 25px;
+  transition: transform 0.3s ease;
 }
 
 .btn-reg-elt {
@@ -239,10 +240,8 @@ body {
   color: #343a40;
   margin-bottom: 17px;
   align-self: flex-start;
-  padding-left: 39px;
-}
-.carousel-item:first-child .carousel__txt {
-  margin-bottom: 39px;
+  padding-left: 17px;
+  height: 66px;
 }
 .carousel__img {
   width: 147px;
@@ -298,4 +297,129 @@ body {
   letter-spacing: 0.01em;
   text-align: center;
   color: #343a40;
+}
+
+@media (max-width: 768px) {
+  .center {
+    max-width: 750px;
+  }
+  .logo {
+    max-width: 130px;
+    width: 100%;
+    height: 26px;
+  }
+  .logo-link {
+    max-width: 130px;
+    height: 26px;
+  }
+  .header {
+    padding: 16px 0 50px 0;
+  }
+  .header__top {
+    margin-bottom: 10px;
+  }
+  .header__main {
+    height: 408px;
+    padding: 37px 0 41px 42px;
+    border-radius: 5px;
+  }
+  .header__main-item {
+    font-size: 15px;
+    line-height: 165%;
+  }
+  .header__main-list {
+    gap: 13px;
+    margin-bottom: 20px;
+  }
+  .header__main-item:first-child {
+    width: 152px;
+    height: 29px;
+    padding: 2px;
+  }
+  .header__top-title {
+    font-size: 36px;
+    max-width: 387px;
+    margin-bottom: 13px;
+  }
+  .header__top-txt {
+    font-size: 15px;
+    margin-bottom: 29px;
+    max-width: 300px;
+  }
+  .btn-reg {
+    max-width: 303px;
+    font-size: 15px;
+    height: 50px;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .btn-reg-elt {
+    width: 37px;
+    height: 37px;
+    background-size: contain;
+  }
+  .main__info {
+    padding: 38px 25px;
+    border-radius: 15px;
+  }
+  .main__advance-list {
+    gap: 10px;
+  }
+  .main__advance-item {
+    max-width: 200px;
+    border-radius: 15px;
+    padding: 19px 0;
+  }
+  .main__advance-img {
+    width: 200px;
+    height: 124px;
+    margin-bottom: 19px;
+  }
+  .main__advance-txt {
+    font-size: 14px;
+    max-width: 162px;
+  }
+  .recomen {
+    padding-bottom: 16px;
+  }
+  .recomen__wrp {
+    padding: 40px;
+    margin-bottom: 0;
+    border-radius: 18px;
+  }
+  .recomen__title {
+    font-size: 26px;
+  }
+  .carousel-container {
+    max-width: 602px;
+  }
+  .carousel-item {
+    max-width: 182px;
+    border-radius: 12px;
+    padding: 25px 0;
+  }
+  .carousel__txt {
+    max-width: 160px;
+    font-size: 12px;
+    height: 42px;
+    margin-bottom: 9px;
+  }
+  .carousel__img {
+    width: 94px;
+    height: 133px;
+  }
+  .controls {
+    margin-top: 30px;
+  }
+  .pagination {
+    font-size: 10px;
+  }
+  .arrow {
+    width: 21px;
+    height: 21px;
+  }
+  .arrow svg {
+    width: 21px;
+    height: 21px;
+  }
 }
