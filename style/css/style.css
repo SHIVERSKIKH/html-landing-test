@@ -26,7 +26,7 @@ body {
   display: block;
   max-width: 272px;
   height: 48px;
-  background: url(../img/Logo-Text.png);
+  background: url(../../img/Logo-Text.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -48,7 +48,7 @@ body {
 .header__main {
   height: 660px;
   border-radius: 30px;
-  background: url(/img/main-img.png);
+  background: url(../../img/main-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,7 +110,7 @@ body {
   width: 60px;
   height: 60px;
   display: block;
-  background: url(/img/hand.png);
+  background: url(../../img/hand.png);
 }
 
 .main__info {
@@ -152,35 +152,35 @@ body {
 }
 
 .img-talk1 {
-  background: url(/img/talk-01.png);
+  background: url(../../img/talk-01.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .img-talk2 {
-  background: url(/img/talk-02.png);
+  background: url(../../img/talk-02.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .img-talk3 {
-  background: url(/img/talk-03.png);
+  background: url(../../img/talk-03.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .img-talk4 {
-  background: url(/img/talk-04.png);
+  background: url(../../img/talk-04.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .img-talk5 {
-  background: url(/img/talk-05.png);
+  background: url(../../img/talk-05.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -256,21 +256,21 @@ body {
 }
 
 .img-rec1 {
-  background: url(/img/img-bot.png);
+  background: url(../../img/img-bot.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .img-rec2 {
-  background: url(/img/img-bot-2.png);
+  background: url(../../img/img-bot-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .img-rec3 {
-  background: url(/img/img-bot-3.png);
+  background: url(../../img/img-bot-3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
