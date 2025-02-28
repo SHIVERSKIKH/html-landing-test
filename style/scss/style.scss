@@ -1,21 +1,255 @@
 @import "../css/hover.css";
 @import "../css/normalize.css";
-@import "../css/nulling-styles.css";
+@import "../css/nulling-style.css";
 @import "_variables.scss";
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: #232323;;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #232323;
 }
 .center {
-    max-width: 1106px;
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin: 0 auto;
+  max-width: 1186px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.logo {
+  max-width: 272px;
+  width: 100%;
+  height: 48px;
+}
+.logo-link {
+  display: block;
+  max-width: 272px;
+  height: 48px;
+  background: url(/img/Logo-Text.png);
+  @include backgroundCenterContain;
 }
 .header {
-    padding:50px 0 50px 0;
+  padding: 50px 0 50px 0;
+  &__top {
+    @include flexSpaceBetween;
+    margin-bottom: 25px;
+  }
+  &__top-tel {
+    font-size: 18px;
+    color: #3c3c3c;
+  }
+  &__main {
+    height: 660px;
+    border-radius: 30px;
+    background: url("/img/main-img.png");
+    @include backgroundCenterCover;
+    padding: 60px 0 67px 68px;
+  }
+  &__main-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  &__main-item {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+  }
+  &__main-item:first-child {
+    border-radius: 10px;
+    max-width: 245px;
+    height: 46px;
+    background: #9c87d9;
+    padding: 5px 20px;
+  }
+  &__top-title {
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  &__top-txt {
+    font-size: 24px;
+    color: #fff;
+    max-width: 490px;
+    width: 100%;
+    margin-bottom: 44px;
+  }
 }
+.btn-reg {
+    @include flexSpaceBetween;
+    background: linear-gradient(320deg, #fe4c04 0%, #ff8d5f 100%);
+    max-width: 490px;
+    width: 100%;
+    padding:10px 20px 10px 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #fff;
+    border-radius: 25px;
+  }
+  .btn-reg-elt {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background: url('/img/hand.png');
+  }
+  .main {
+    &__info {
+        background: radial-gradient(50% 50% at 50% 50%, #debdff 0%, #f6ebff 100%);
+        border-radius: 24px;
+        padding: 85px 69px;
+        margin-bottom: 50px;
+    }
+    &__advance-list {
+        @include flexCenter;
+        align-items: unset;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 30px
+    }
+    &__advance-item {
+        @include flexColumnCenter;
+        max-width: 322px;
+        width: 100%;
+        border-radius: 20px;
+        background: #fff;
+        padding: 30px 0;
+    }
+    &__advance-img {
+        width: 322px;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+    &__advance-txt {
+        max-width: 262px;
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+        color: #232323;
+    }
+  }
+  .img-talk1 {
+    background: url('/img/talk-01.png');
+    @include backgroundCenterCover;
+  }
+  .img-talk2 {
+    background: url('/img/talk-02.png');
+    @include backgroundCenterCover;
+  }
+  .img-talk3 {
+    background: url('/img/talk-03.png');
+    @include backgroundCenterCover;
+  }
+  .img-talk4 {
+    background: url('/img/talk-04.png');
+    @include backgroundCenterCover;
+  }
+  .img-talk5 {
+    background: url('/img/talk-05.png');
+    @include backgroundCenterCover;
+  }
+  .btn-reg-position {
+    margin: 0 auto;
+  }
+  .recomen {
+    padding-bottom: 50px;
+    &__wrp {
+        border-radius: 29px;
+        background: #ffe7e7;
+        padding:51px 0;
+        margin-bottom: 50px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 130%;
+        text-align: center;
+        color: #343a40;
+        margin-bottom: 30px;
+    }
+  }
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    &-container {
+        width: 100%;
+        max-width: 915px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+    &-item {
+        @include flexColumnCenter;
+        max-width: 286px;
+        width: 100%;
+        background: #fcf9ff;
+        border-radius: 19px;
+        flex: 0 0 33.33%; 
+        box-sizing: border-box;
+        padding: 39px 0 44px 0;
+    }
+    &__txt {
+        max-width: 257px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 19px;
+        color: #343a40;
+        margin-bottom: 17px;
+        align-self: flex-start;
+        padding-left: 39px;
+    }
+    &-item:first-child &__txt {
+        margin-bottom: 39px;
+    }
+    &__img {
+        width: 147px;
+        border: 0.49px solid #9f9f9f;
+        height: 212px;
+    }
+    &-track {
+        display: flex;
+        transition: transform 0.9s ease-in-out; 
+        gap: 20px;
+      }
+  }
+  .img-rec1 {
+    background:url('/img/img-bot.png');
+    @include backgroundCenterCover;
+  }
+  .img-rec2 {
+    background:url('/img/img-bot-2.png');
+    @include backgroundCenterCover;
+  }
+  .img-rec3 {
+    background:url('/img/img-bot-3.png');
+    @include backgroundCenterCover;
+  }
+  .controls {
+    @include flexCenter;
+    margin-top: 32px;
+    gap: 20px;
+  }
+  
+  .arrow {
+    background: transparent;
+  }
+  
+  .arrow:disabled {
+    cursor: default;
+    opacity:0.3;
+  }
+  
+  .pagination {
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #343a40;
+  }
+  
