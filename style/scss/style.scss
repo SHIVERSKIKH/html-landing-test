@@ -25,7 +25,7 @@ body {
   display: block;
   max-width: 272px;
   height: 48px;
-  background: url(img/Logo-Text.png);
+  background: url(/img/Logo-Text.png);
   @include backgroundCenterContain;
 }
 .header {
@@ -41,7 +41,7 @@ body {
   &__main {
     height: 660px;
     border-radius: 30px;
-    background: url("/img/main-img.png");
+    background: url(/img/main-img.png);
     @include backgroundCenterCover;
     padding: 60px 0 67px 68px;
   }
@@ -98,7 +98,7 @@ body {
     width: 60px;
     height: 60px;
     display: block;
-    background: url('img/hand.png');
+    background: url(/img/hand.png);
   }
   .main {
     &__info {
@@ -136,23 +136,23 @@ body {
     }
   }
   .img-talk1 {
-    background: url('img/talk-01.png');
+    background: url(/img/talk-01.png);
     @include backgroundCenterCover;
   }
   .img-talk2 {
-    background: url('img/talk-02.png');
+    background: url(/img/talk-02.png);
     @include backgroundCenterCover;
   }
   .img-talk3 {
-    background: url('img/talk-03.png');
+    background: url(/img/talk-03.png);
     @include backgroundCenterCover;
   }
   .img-talk4 {
-    background: url('img/talk-04.png');
+    background: url(/img/talk-04.png);
     @include backgroundCenterCover;
   }
   .img-talk5 {
-    background: url('img/talk-05.png');
+    background: url(/img/talk-05.png);
     @include backgroundCenterCover;
   }
   .btn-reg-position {
@@ -220,15 +220,15 @@ body {
       }
   }
   .img-rec1 {
-    background:url('img/img-bot.png');
+    background:url(/img/img-bot.png);
     @include backgroundCenterCover;
   }
   .img-rec2 {
-    background:url('img/img-bot-2.png');
+    background:url(/img/img-bot-2.png);
     @include backgroundCenterCover;
   }
   .img-rec3 {
-    background:url('img/img-bot-3.png');
+    background:url(/img/img-bot-3.png);
     @include backgroundCenterCover;
   }
   .controls {
