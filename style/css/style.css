@@ -41,7 +41,7 @@ body {
   align-items: center;
   margin-bottom: 25px;
 }
-.header__top-tel {
+.header__top-tel a {
   font-size: 18px;
   color: #3c3c3c;
 }
@@ -421,5 +421,88 @@ body {
   .arrow svg {
     width: 21px;
     height: 21px;
+  }
+}
+@media (max-width: 468px) {
+  .center {
+    max-width: 468px;
+  }
+  .logo {
+    max-width: 110px;
+    width: 100%;
+    height: 17px;
+  }
+  .logo-link {
+    max-width: 110px;
+    height: 17px;
+  }
+  .header {
+    padding: 10px 0 25px 0;
+  }
+  .header__top-tel a {
+    font-size: 9px;
+  }
+  .header__main {
+    height: 550px;
+    background: url(../../img/bg-mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 19px;
+    padding: 20px 20px 0 20px;
+  }
+  .header__main-list {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 17px;
+  }
+  .header__top-wrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__top-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .header__top-txt {
+    font-size: 14px;
+    text-align: center;
+    max-width: 260px;
+    margin-bottom: 17px;
+  }
+  .btn-reg {
+    font-size: 13px;
+  }
+  .main__info {
+    padding: 30px 20px;
+  }
+  .main__advance-list {
+    gap: 20px;
+  }
+  .main__advance-item {
+    max-width: 260px;
+  }
+  .recomen__wrp {
+    padding: 20px;
+  }
+  .recomen__title {
+    max-width: 250px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .carousel-container {
+    max-width: 250px;
+  }
+  .carousel-item {
+    width: 250px;
+    max-width: 250px;
+  }
+}
+@media (max-width: 468px) {
+  .center {
+    padding: 0 10px;
   }
 }

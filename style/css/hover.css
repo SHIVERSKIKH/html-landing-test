@@ -5,4 +5,8 @@ a, button {
         .btn-reg:hover {
             transform: scale(1.1);
         }
+        .header__top-tel a:hover {
+            color: blueviolet;
+            font-weight: 500;
+        }
     }

@@ -35,7 +35,7 @@ body {
     @include flexSpaceBetween;
     margin-bottom: 25px;
   }
-  &__top-tel {
+  &__top-tel a {
     font-size: 18px;
     color: #3c3c3c;
   }
