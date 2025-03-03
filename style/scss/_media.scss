@@ -220,7 +220,10 @@
     }
     .carousel {
         &-container {
-            max-width: 266px;
+            max-width: 250px;
+        }
+        &-track {
+            gap:1px;
         }
         &-item {
             flex: 0 0 100.00%;

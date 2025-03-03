@@ -510,7 +510,10 @@ body {
     margin: 0 auto 14px;
   }
   .carousel-container {
-    max-width: 266px;
+    max-width: 250px;
+  }
+  .carousel-track {
+    gap: 1px;
   }
   .carousel-item {
     flex: 0 0 100%;
