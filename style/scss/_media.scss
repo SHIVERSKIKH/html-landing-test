@@ -138,6 +138,16 @@
     height: 21px;
 }
 }
+@media(max-width:728px) {
+    .carousel {
+        &-container {
+            max-width: 404px;
+        }
+        &-item {
+            flex: 0 0 50.33%;
+        }
+    }
+}
 @media(max-width:468px) {
     .center {
         max-width: 468px;
@@ -219,6 +229,7 @@
         }
         &__txt {
             font-size: 14px;
+            max-width: 186px;
         }
     }
 }
