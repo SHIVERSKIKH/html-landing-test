@@ -299,6 +299,14 @@ body {
   color: #343a40;
 }
 
+@media (max-width: 980px) {
+  .carousel-container {
+    max-width: 608px;
+  }
+  .carousel-item {
+    flex: 0 0 50.33%;
+  }
+}
 @media (max-width: 768px) {
   .center {
     max-width: 750px;
